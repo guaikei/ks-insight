@@ -6,6 +6,11 @@ name: ks-insight
 description: "快手洞察数据只读技能：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手洞察数据｜关键词搜索·作品表现·评论反馈·互动数据"
+display_name_en: "Kuaishou Insight"
+description_zh: "快手洞察公开数据源（只读）：关键词搜索视频、博主作品与粉丝互动数据、单条作品详情（文案/播放/点赞）、视频评论详情，全部输出结构化 JSON 供 AI 直接做数据洞察；支持最多点赞/最新发布排序与时间、时长多维筛选，可用于爆款选题挖掘、竞品账号监控、KOL 真实互动率核验与评论舆情分析。不登录、不发布、不点赞、不评论。按量单次最多 1 万条；包月搜索最多 30、作品最多 50、评论最多 60，超限返回 PLAN_LIMIT（退出码 1），降 limit 或升级须用户同意后再跑。适用于竞品监控、趋势预测、KOL 筛选与市场洞察报告。"
+description_en: "Read-only Kuaishou insight data source: keyword video search, creator posts plus follower and engagement stats, post detail (caption, plays, likes), and video comments - all as structured JSON an AI can turn into an insight report. Supports most-liked / latest sorting plus time and duration filters, covering use cases from trending-topic mining and competitor monitoring to verifying real KOL engagement rates and analysing comment sentiment. Read-only by design: no login, no publishing, no likes, no comments. Pay-per-use up to 10,000 records per call; monthly plans allow up to 30 searches, 50 post queries and 60 comment queries - exceeding them returns PLAN_LIMIT (exit code 1), so lower the limit or upgrade only with the user's consent."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
